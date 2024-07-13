@@ -3,6 +3,7 @@
 .email-wrapper {
 	display: flex;
 	padding-bottom: 20px;
+	margin-left: 10%;
 }
 
 .social a,
@@ -19,7 +20,7 @@
 	color: var(--secondary-color);
 	padding-left: 30px;
 	margin-top: -20px;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 14px;
 }
 

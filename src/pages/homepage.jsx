@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
@@ -9,18 +8,15 @@ import {
 	faStackOverflow,
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
-
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
-
 import "./styles/homepage.css";
 import Educations from "../components/homepage/Education";
 
@@ -36,7 +32,6 @@ const Homepage = () => {
 	useEffect(() => {
 		const handleScroll = () => {
 			let scroll = Math.round(window.pageYOffset, 2);
-
 			let newLogoSize = 80 - (scroll * 4) / 10;
 
 			if (newLogoSize < oldLogoSize) {
@@ -99,6 +94,18 @@ const Homepage = () => {
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
 								</div>
+
+								<a
+									href="/path_to_your_resume.pdf"
+									className="download-resume-button"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<span className="download-icon">
+										<FontAwesomeIcon icon={faDownload} />
+									</span>
+									Download Resume
+								</a>
 							</div>
 
 							<div className="homepage-first-area-right-side">
@@ -176,12 +183,9 @@ const Homepage = () => {
 								<Educations />
 							</div>
 
-
 							<div className="homepage-works">
 								<Works />
 							</div>
-
-
 						</div>
 
 						<div className="homepage-articles">

@@ -49,7 +49,7 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									<div dangerouslySetInnerHTML={{ __html: INFO.about.description }} />
 								</div>
 							</div>
 
@@ -77,21 +77,21 @@ const About = () => {
 					</div>
 
 					<div className="homepage-projects">
-							<AllProjects />
+						<AllProjects />
+					</div>
+
+					<div className="homepage-after-title">
+						<div className="homepage-works">
+							<Educations />
 						</div>
 
-						<div className="homepage-after-title">
-							<div className="homepage-works">
-								<Educations />
-							</div>
 
-
-							<div className="homepage-works">
-								<Works />
-							</div>
-
-
+						<div className="homepage-works">
+							<Works />
 						</div>
+
+
+					</div>
 					<div className="page-footer">
 						<Footer />
 					</div>

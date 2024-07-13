@@ -149,3 +149,26 @@
 		margin-right: -25px;
 	}
 }
+.download-resume-button {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.download-resume-button:hover {
+    background-color: #b9c8d8;
+	color: var(--secondary-color);
+}
+
+.download-icon {
+    margin-right: 10px;
+}

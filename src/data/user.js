@@ -20,11 +20,26 @@ const INFO = {
 		description: "I am a full-stack developer with expertise in PHP/Laravel, MySQL, Python, JavaScript, and some React. I specialize in Laravel for backend development. My experience includes building scalable, secure, and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. Always seeking new challenges and opportunities to grow as a developer."
 },
 
-	about: {
-		title: "I’m Nfon Andrew, I currently reside in Cameroon and Very Flexible remote developer",
-		description:
-			"I got into computers when I was 16, even though I didn't have much access back then. I've been writing code for about four years now. I'm pretty good with PHP, and I can work with lots of other programming languages too, like Python and Java.\nI'm a good team player and leader. I like to take charge and get things done. Right now, I'm the Chief Technology Officer at a startup called Skye8, where I help come up with new ideas and make sure things run smoothly.\nOutside of work, I teach people how to code on websites like Preply. I love technology and how it can change the world. My goal is to keep learning and growing, and maybe even help others do the same along the way.",
-	},
+about: {
+    title: "I’m Nfon Andrew, I currently reside in Cameroon and Very Flexible remote developer",
+    description: `
+        I got into computers when I was 16, even though I didn't have much access back then. 
+        I've been writing code for about four years now. I'm pretty good with PHP, and I can work with lots of other programming languages too, like Python and Java. 
+        I'm a good team player and leader. I like to take charge and get things done. 
+        Right now, I'm the Chief Technology Officer at a startup called Skye8. In this role, I help come up with new ideas and make sure things run smoothly.<br><br> 
+        Outside of work, I teach people how to code on websites like Preply. 
+        I love technology and how it can change the world. My goal is to keep learning and growing, and maybe even help others do the same along the way.<br> 
+        I have worked with several companies as a software engineer, backend developer, and full-stack developer. I was also a mentor at Zuri.<br> 
+        In my free time, I enjoy watching movies and spending time in nature.<br> <br>
+        My journey in the world of technology has been rewarding and fulfilling. 
+        I'm proud to have turned my passion into a profession. 
+        As I continue to learn and grow, I recently started getting into AI, building ML models, and integrating them into projects. 
+        I hope to inspire others to embrace the power of technology and never stop exploring new possibilities.
+    `,
+},
+
+
+
 
 	articles: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
@@ -49,6 +64,15 @@ const INFO = {
 			logo: "https://cdn.worldvectorlogo.com/logos/laravel-2.svg",
 			linkText: "View Project",
 			link: "https://github.com/andrew21-mch/resumeBuilder_API",
+		},
+
+		{
+			title: "ANTIC Crime Reporting and Fraud Detection System",
+			description:
+				"ANTIC is a platform that enables individuals to report crimes and be able to verify the authenticity of messages they receive",
+			logo: "https://cdn.worldvectorlogo.com/logos/laravel-2.svg",
+			linkText: "View Project",
+			link: "https://crs.flextrain.ing",
 		},
 
 		{
@@ -122,6 +146,13 @@ const INFO = {
 			logo: "https://cdn.worldvectorlogo.com/logos/angular-3.svg",
 			level: 'intermediate'
 		},
+		{
+			title: "Software Design",
+			description: "Experience in architecture and software design",
+			logo: "https://static.vecteezy.com/system/resources/thumbnails/003/573/245/small/computer-repair-logo-template-software-development-design-desktop-service-vector.jpg",
+			level: 'beginner'
+		}
+		
 	]
 
 };
